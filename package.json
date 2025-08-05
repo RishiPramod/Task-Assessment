@@ -1,0 +1,16 @@
+{
+  "name": "task-to-do",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "concurrently \"npm install\" \"npm install --prefix client\" \"npm install --prefix server\"",
+    "start": "concurrently \"npm start --prefix server\" \"npm run dev --prefix client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
