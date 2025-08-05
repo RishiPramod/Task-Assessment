@@ -4,7 +4,7 @@ A simple and intuitive Todo application that helps you stay organized and manage
 
 ## Live Demo
 
-The application is deployed on Vercel and can be accessed here: [Todo App]()
+The application is deployed on Vercel and can be accessed here: [Todo App](https://task-assessment-swab.vercel.app)
 
 ## Features
 
